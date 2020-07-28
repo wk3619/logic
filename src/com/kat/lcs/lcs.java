@@ -1,6 +1,5 @@
 package com.kat.lcs;
 
-import sun.tools.jconsole.MaximizableInternalFrame;
 
 /**
  * LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.

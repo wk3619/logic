@@ -14,7 +14,7 @@ public class Lis_native {
         int res, max_temp = 1;
         for (int i = 1; i < n; i++) {
             res = lis_(arr, i);
-            if (arr[i - 1] < arr[n - 1] && max_temp < res + 1) {
+            if (arr[i-1] < arr[i] && max_temp < res + 1) {
                 max_temp = res + 1;
             }
         }
