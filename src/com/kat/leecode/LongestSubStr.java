@@ -19,7 +19,7 @@ public class LongestSubStr {
                 set.add(s.charAt(j++));
                 ans = Math.max(ans, j - i);
             } else {
-                set.remove(s.charAt(j++));
+                set.remove(s.charAt(i++));
             }
         }
         return ans;
@@ -28,7 +28,7 @@ public class LongestSubStr {
 
 
     public static void main(String[] args) {
-        int r = ls("abcdefgg");
+        int r = ls("abcca");
         System.out.println(r);
     }
 }
